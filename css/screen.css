@@ -1,0 +1,490 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* ===== BASE STYLES ===== */
+
+/*
+  Setting type to a major second modular scale
+ http://www.modularscale.com/?20&px&1.125&web&text
+*/
+
+
+html {
+  font-size: 1.25em; /*20px 1 em 1.25@16 */
+  line-height: 1.2em; /*24/20= 1.2 em */
+}
+
+h1 {
+  font-size: 1.601em; /* 32.036px/20px = 1.601em */
+  line-height: 1.404em; /* 45/32.036 = 1.404em */
+}
+
+p,
+ul {
+  padding-bottom: 1.2em; /* 1 girdline */
+}
+
+li {
+  padding-bottom: 0.5em; /*half grid line 10px/20px = 0.5em */ 
+}
+
+li:last-child {
+  padding-bottom: 0;
+}
+
+#about-page ul {
+  padding-bottom: 1.2em; /* 1 girdline */
+}
+
+#about-page li {
+  padding-bottom: 0.5em; /*half grid line 10px/20px = 0.5em */ 
+}
+
+#about-page li:last-child {
+  padding-bottom: 0;
+}
+
+#html-pageone {
+  font-family: 'Neuton', serif;
+}
+
+#page-one #h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#html-about {
+  font-family: 'Neuton', serif;
+}
+
+#about-page #about-h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #upbringing{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #hobbies{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #photography{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #videography{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#html-sobe{
+  font-family: 'Neuton', serif;
+}
+
+#travel #south-beach{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#travel #cuban-culture{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#travel #mango-intro{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#travel #entertainment{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#html-resume{
+  font-family: 'Neuton', serif;
+}
+
+#resume-page #my-name{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#resume-page #objective{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#resume-page #education{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#resume-page #emp-history{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#page-one #h1 {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#resume-page #my-name {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#resume-page #objective{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#resume-page #education {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#resume-page #emp-history {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#resume-page #employer1-name {
+  font-size: 1.265em; /* 25.313/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
+
+#resume-page #employer2-name {
+  font-size: 1.265em; /* 25.313px/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
+
+#resume-page #employer2-name {
+  font-size: 1.265em; /* 25.313px/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
+
+#travel #south-beach {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#travel #cuban-culture{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#travel #mango-intro{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#travel #entertainment {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#about-page #about-h1 {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#about-page #upbringing{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#about-page #hobbies {
+ font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#about-page #photography {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#about-page #videography {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#chkn-rice {
+  display:block;
+  max-width: 100%;
+}
+
+#white-flower {
+  display:block;
+  max-width: 100%;
+}
+
+#about-page #bird-video {
+  display:block;
+  max-width: 100%;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+#footer{
+  padding-top: 1.2em; /* 1 girdline */
+  background-color: #c9d6cd;
+  /*position: absolute;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* ===== LAYOUT STYLES ===== */
+
+#cuban-page{
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9; /* https://www.google.com/#q=html+color+picker */ 
+}
+
+#about-page{
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;
+}
+
+
+#resume-page{
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;
+}
+
+#page-one{
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;
+}
+
+#resume-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#resume-page #nav-links li {
+  display: inline-block;
+}
+
+#resume-page #nav-links li a {
+  display: block;
+  background-color: #244166;
+  color: #ced6e0;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
+}
+
+#resume-page #my-name {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
+
+#cuban-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#cuban-page #nav-links li {
+  display: inline-block;
+}
+
+#cuban-page #nav-links li a {
+  display: block;
+  background-color: #244166;
+  color: #ced6e0;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
+}
+
+#cuban-page #south-beach {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
+
+#about-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#about-page #nav-links li {
+  display: inline-block;
+}
+
+#about-page #nav-links li a {
+  display: block;
+  background-color: #244166;
+  color: #ced6e0;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
+}
+
+#about-page #about-h1 {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
+
+#page-one #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#page-one #nav-links li {
+  display: inline-block;
+}
+
+#page-one #nav-links li a {
+  display: block;
+  background-color: #244166;
+  color: #ced6e0;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
+}
+
+#page-one #h1 {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
+
+/* ===== MODULAR STYLES ===== */
+
+.content ul {
+  list-style-type: disc;
+}
+
+#nav-links li a {
+  text-decoration: none;
+}
+
+#resume-page #my-email li a{
+   text-decoration: none;
+}
+
+#employer1-desc li {
+  list-style: square inside;
+}
+
+#employer2-desc li {
+  list-style: square inside;
+}
+
+#gym-name li {
+  list-style: square inside;
+}
+/* ===== STATE STYLES ===== */
+
+/*
+8:9 ration
+8+9= 17
+500/17= 29.41
+8x29.41= 235.28
+9x29.41= 264.69
+*/
+
+
+/* 500/16=31.25em */
+
+@media screen and (min-width: 500px) {
+
+  #travel{
+    width: 100%;
+  }
+  #cuban-page{
+    width: 90%;
+    padding: 7% auto;
+  }
+
+  #mango{
+    width:47.05%; /* 235.28/500 = 0.47056*/
+    float: left;
+  }
+
+  #pic1{
+    width:52.93%; /* 264.69/500 = 0.52938 */
+    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
+  }
+
+  #cafe-cubano{
+    width:47.05%; /* 235.28/500 = 0.47056*/
+    float: left;
+  }
+  #entertainment{
+    width: 95%;
+    text-align: center;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  #about-page{
+    width: 100%;
+  }
+  #about{
+    width: 90%;
+    padding: 7% auto;
+  }
+  #my-hobbies{
+    width:47.05%; /* 235.28/500 = 0.47056*/
+    float: left;
+  }
+  #lafitness-logo{
+    width:52.93%; /* 264.69/500 = 0.52938 */
+    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
+  }
+  #photo-h4{
+    width: 95%;
+    text-align: center;
+    float: left;
+  }
+  #videography{
+    width: 95%;
+    text-align: center;
+    float: left;
+  }
+  #about-h1{
+    text-align:center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  #resume-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+  }
+
+@media screen and (max-width: 300px) {
+
+  #cuban-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+  }
+
+@media screen and (max-width: 300px) {
+
+  #about-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+  }
+}
+
