@@ -37,15 +37,15 @@ li:last-child {
   padding-bottom: 0;
 }
 
-#about-page ul {
+#theme-page ul {
   padding-bottom: 1.2em; /* 1 girdline */
 }
 
-#about-page li {
+#theme-page li {
   padding-bottom: 0.5em; /*half grid line 10px/20px = 0.5em */ 
 }
 
-#about-page li:last-child {
+#theme-page li:last-child {
   padding-bottom: 0;
 }
 
@@ -57,28 +57,21 @@ li:last-child {
   font-family: 'Abril Fatface', cursive;
 }
 
+#page-one #h2{
+  font-family: 'Abril Fatface', cursive;
+}
+
 #html-about {
   font-family: 'Neuton', serif;
 }
 
-#about-page #about-h1{
+#theme-page #h1{
   font-family: 'Abril Fatface', cursive;
 }
 
-#about-page #upbringing{
+#theme-page #h2{
   font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #hobbies{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #photography{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #videography{
-  font-family: 'Abril Fatface', cursive;
+  padding-bottom:.75em;
 }
 
 #html-sobe{
@@ -126,10 +119,22 @@ li:last-child {
   line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
 
+#page-one #h2{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
 #film-page #h1 {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
   padding-top:1.75em;
+}
+
+#theme-page #h1 {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+  padding-top:1.75em;
+  padding-bottom:1.75em;
 }
 
 #resume-page #my-name {
@@ -187,29 +192,9 @@ li:last-child {
   line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
-#about-page #about-h1 {
+#theme-page  #about-h1 {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#about-page #upbringing{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #hobbies {
- font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #photography {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #videography {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #chkn-rice {
@@ -222,10 +207,6 @@ li:last-child {
   max-width: 100%;
 }
 
-#about-page #bird-video {
-  display:block;
-  max-width: 100%;
-}
 
 img,
 video {
@@ -233,13 +214,30 @@ video {
   max-width: 100%;
 }
 
+
+#silence{
+  width:300px;
+  float: right; 
+  height:200px;
+}
+
+#ring{
+  width:300px;
+  margin:0 auto;
+  height:200px;
+}
+
+#excorist{
+  width:300px;
+  height:200px;
+  margin: auto 0;
+}
+
 #footer{
   padding-top: 1.2em; /* 1 girdline */
   background-color: #c9d6cd;
-  /*position: absolute;*/
-  right: 0;
+  position: absolute;
   bottom: 0;
-  left: 0;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -249,7 +247,7 @@ video {
   background-color: #bce0c9; /* https://www.google.com/#q=html+color+picker */ 
 }
 
-#about-page{
+#theme-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
   background-color: #bce0c9;
 }
@@ -315,18 +313,18 @@ video {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
-#about-page #nav-links {
+#theme-page #nav-links {
   position: absolute;
   top: 0;
   padding: 0;
   line-height: 1;
 }
 
-#about-page #nav-links li {
+#theme-page  #nav-links li {
   display: inline-block;
 }
 
-#about-page #nav-links li a {
+#theme-page #nav-links li a {
   display: block;
   background-color: #244166;
   color: #ced6e0;
@@ -336,7 +334,7 @@ video {
   padding-left: 0.32em;/* 0.65/2 */
 }
 
-#about-page #about-h1 {
+#theme-page  #about-h1 {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
