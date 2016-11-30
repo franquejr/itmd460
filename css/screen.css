@@ -126,6 +126,12 @@ li:last-child {
   line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
 
+#film-page #h1 {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+  padding-top:1.75em;
+}
+
 #resume-page #my-name {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
@@ -249,7 +255,7 @@ video {
 }
 
 
-#resume-page{
+#film-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
   background-color: #bce0c9;
 }
@@ -259,18 +265,18 @@ video {
   background-color: #bce0c9;
 }
 
-#resume-page #nav-links {
+#film-page #nav-links {
   position: absolute;
   top: 0;
   padding: 0;
   line-height: 1;
 }
 
-#resume-page #nav-links li {
+#film-page #nav-links li {
   display: inline-block;
 }
 
-#resume-page #nav-links li a {
+#film-page #nav-links li a {
   display: block;
   background-color: #244166;
   color: #ced6e0;
@@ -280,7 +286,7 @@ video {
   padding-left: 0.32em;/* 0.65/2 */
 }
 
-#resume-page #my-name {
+#film-page #my-name {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
@@ -462,7 +468,7 @@ video {
 
 @media screen and (max-width: 300px) {
 
-  #resume-page #nav-links {
+  #film-page #nav-links {
   position: absolute;
   top: 0;
   padding: 0;
