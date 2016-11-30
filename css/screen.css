@@ -74,46 +74,6 @@ li:last-child {
   padding-bottom:.75em;
 }
 
-#html-sobe{
-  font-family: 'Neuton', serif;
-}
-
-#travel #south-beach{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#travel #cuban-culture{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#travel #mango-intro{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#travel #entertainment{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#html-resume{
-  font-family: 'Neuton', serif;
-}
-
-#resume-page #my-name{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#resume-page #objective{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#resume-page #education{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#resume-page #emp-history{
-  font-family: 'Abril Fatface', cursive;
-}
-
 #page-one #h1 {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
@@ -137,76 +97,10 @@ li:last-child {
   padding-bottom:1.75em;
 }
 
-#resume-page #my-name {
-  font-size: 1.802em; /* 36.041px/20px = 1.802em */
-  line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#resume-page #objective{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#resume-page #education {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#resume-page #emp-history {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#resume-page #employer1-name {
-  font-size: 1.265em; /* 25.313/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-}
-
-#resume-page #employer2-name {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-}
-
-#resume-page #employer2-name {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-}
-
-#travel #south-beach {
-  font-size: 1.802em; /* 36.041px/20px = 1.802em */
-  line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#travel #cuban-culture{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#travel #mango-intro{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#travel #entertainment {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
 #theme-page  #about-h1 {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
-
-#chkn-rice {
-  display:block;
-  max-width: 100%;
-}
-
-#white-flower {
-  display:block;
-  max-width: 100%;
-}
-
 
 img,
 video {
@@ -241,11 +135,6 @@ video {
 }
 
 /* ===== LAYOUT STYLES ===== */
-
-#cuban-page{
-  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
-  background-color: #bce0c9; /* https://www.google.com/#q=html+color+picker */ 
-}
 
 #theme-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
@@ -285,31 +174,6 @@ video {
 }
 
 #film-page #my-name {
-  padding-top: 3.3em; /* 66px/20px=3.3em*/
-}
-
-#cuban-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: 1;
-}
-
-#cuban-page #nav-links li {
-  display: inline-block;
-}
-
-#cuban-page #nav-links li a {
-  display: block;
-  background-color: #244166;
-  color: #ced6e0;
-  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
-  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
-  padding-right: 0.32em;
-  padding-left: 0.32em;/* 0.65/2 */
-}
-
-#cuban-page #south-beach {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
@@ -373,122 +237,6 @@ video {
   text-decoration: none;
 }
 
-#resume-page #my-email li a{
-   text-decoration: none;
-}
-
-#employer1-desc li {
-  list-style: square inside;
-}
-
-#employer2-desc li {
-  list-style: square inside;
-}
-
-#gym-name li {
-  list-style: square inside;
-}
 /* ===== STATE STYLES ===== */
 
-/*
-8:9 ration
-8+9= 17
-500/17= 29.41
-8x29.41= 235.28
-9x29.41= 264.69
-*/
-
-
-/* 500/16=31.25em */
-
-@media screen and (min-width: 500px) {
-
-  #travel{
-    width: 100%;
-  }
-  #cuban-page{
-    width: 90%;
-    padding: 7% auto;
-  }
-
-  #mango{
-    width:47.05%; /* 235.28/500 = 0.47056*/
-    float: left;
-  }
-
-  #pic1{
-    width:52.93%; /* 264.69/500 = 0.52938 */
-    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
-  }
-
-  #cafe-cubano{
-    width:47.05%; /* 235.28/500 = 0.47056*/
-    float: left;
-  }
-  #entertainment{
-    width: 95%;
-    text-align: center;
-    float: left;
-  }
-}
-
-@media screen and (min-width: 500px) {
-
-  #about-page{
-    width: 100%;
-  }
-  #about{
-    width: 90%;
-    padding: 7% auto;
-  }
-  #my-hobbies{
-    width:47.05%; /* 235.28/500 = 0.47056*/
-    float: left;
-  }
-  #lafitness-logo{
-    width:52.93%; /* 264.69/500 = 0.52938 */
-    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
-  }
-  #photo-h4{
-    width: 95%;
-    text-align: center;
-    float: left;
-  }
-  #videography{
-    width: 95%;
-    text-align: center;
-    float: left;
-  }
-  #about-h1{
-    text-align:center;
-  }
-}
-
-@media screen and (max-width: 300px) {
-
-  #film-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: .60;
-  }
-
-@media screen and (max-width: 300px) {
-
-  #cuban-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: .60;
-  }
-
-@media screen and (max-width: 300px) {
-
-  #about-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: .60;
-  }
-}
 
