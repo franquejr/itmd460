@@ -27,6 +27,7 @@ h1 {
 p,
 ul {
   padding-bottom: 1.2em; /* 1 girdline */
+  font-family: 'Neuton', serif;
 }
 
 li {
@@ -109,24 +110,6 @@ video {
 }
 
 
-/*#silence{
-  width:300px;
-  float: right; 
-  height:200px;
-}
-
-#ring{
-  width:300px;
-  margin:0 auto;
-  height:200px;
-}
-
-#excorist{
-  width:300px;
-  height:200px;
-  margin: auto 0;
-}*/
-
 #footer{
   padding-top: 1.2em; /* 1 girdline */
   background-color: #c9d6cd;
@@ -153,7 +136,7 @@ video {
 }
 
 #film-page #nav-links {
-  position: absolute;
+  position: fixed;
   top: 0;
   padding: 0;
   line-height: 1;
@@ -227,6 +210,23 @@ video {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
+#silence{
+  padding-bottom:.75em;
+}
+
+#ring{
+  padding-bottom:.75em;
+}
+
+#excorist{
+  padding-bottom:.75em;
+}
+
+#others{
+  padding-bottom:.75em;
+}
+
+
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
@@ -235,6 +235,10 @@ video {
 
 #nav-links li a {
   text-decoration: none;
+}
+
+#movie-wrapper{
+  width:50%;
 }
 
 /* ===== STATE STYLES ===== */
